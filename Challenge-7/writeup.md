@@ -1,1 +1,3 @@
 First unzipped the file using unzip command and then moved to the description directory and viewed the passwords.txt which looked to be hex encoded, used the command xxd to decode the hex encoding and then the output looked like a base64 encoded file so used the base64 command multiple times to get the answer lollipop, used the openssl command to open the description.txt.enc. Gave the password lollipop to description.txt.enc to get the instructions
+
+After getting into the Stage1 folder, I opened the server.py file in which I added a print statement and opened the cipher.bin file in read mode and passed it to the code, after running the file the got the fist part of the flag which is "oracle_master"
