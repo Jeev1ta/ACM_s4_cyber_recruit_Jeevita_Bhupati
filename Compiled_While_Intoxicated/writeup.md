@@ -1,0 +1,3 @@
+For the challenge compiled while intoxicated, I first used the file command and found out that the file is a compiled java file so I used an online java decompiler tool, there was a hex code and the output “m0rph111n3”, I was stuck here for a long time and took the help of gpt and was suggested to do XOR of the two words converted into bytes and got the output: b'@hitrecordsam'. I looked up the quote: Someone once said, "This word was created by someone on morphine, cocaine, and alcohol at the same time." and was led to the instagram user HitRecordSam and the word that he was referring to was “Hochwasserschutzanlage”
+Flag: ACM{Hochwasserschutzanlage}
+
